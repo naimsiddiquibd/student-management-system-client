@@ -33,19 +33,10 @@ const Dashboard = () => {
                   <Link to="/dashboard/allstudent">All Student</Link>
                 </li>
                 <li>
-                  <Link to="">Edit Student</Link>
+                  <Link to="/dashboard/adddepartment">Add Department</Link>
                 </li>
                 <li>
-                  <Link to="">About Student</Link>
-                </li>
-                <li>
-                  <Link to="">All Department</Link>
-                </li>
-                <li>
-                  <Link to="">Add Department</Link>
-                </li>
-                <li>
-                  <Link to="">Edit Department</Link>
+                  <Link to="/dashboard/alldepartment">All Department</Link>
                 </li>
                 <li>
                   <Link to="">Holyday Calendar</Link>
@@ -60,16 +51,16 @@ const Dashboard = () => {
             ) : (
               <>
                 <li>
-                  <Link to="">All Teacher</Link>
+                  <Link to="/dashboard/viewteacher">All Teacher</Link>
                 </li>
                 <li>
-                  <Link to="">Add Courses</Link>
+                  <Link to="/dashboard/addcourse">Add Courses</Link>
                 </li>
                 <li>
-                  <Link to="">All Department</Link>
+                  <Link to="/dashboard/viewdepartment">All Department</Link>
                 </li>
                 <li>
-                  <Link to="">All Student</Link>
+                  <Link to="/dashboard/viewstudent">All Student</Link>
                 </li>
                 <li>
                   <Link to="">Holyday Calendar</Link>

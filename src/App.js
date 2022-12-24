@@ -16,6 +16,13 @@ import TeacherDetails from "./Pages/Dashboard/Admin/TeacherDetails";
 import AddStudent from "./Pages/Dashboard/Admin/AddStudent";
 import AllStudent from "./Pages/Dashboard/Admin/AllStudent";
 import UpdateTeacher from "./Pages/Dashboard/Admin/UpdateTeacher";
+import AddDepartment from "./Pages/Dashboard/Admin/AddDepartment";
+import AllDepartment from "./Pages/Dashboard/Admin/AllDepartment";
+import AddCourse from "./Pages/Dashboard/Teacher/AddCourse";
+import ViewTeacher from "./Pages/Dashboard/Teacher/ViewTeacher";
+import ViewDepartment from "./Pages/Dashboard/Teacher/ViewDepartment";
+import ViewStudent from "./Pages/Dashboard/Teacher/ViewStudent";
+import TeacherDetailsForTeacher from "./Pages/Dashboard/Teacher/TeacherDetailsForTeacher";
 
 function App() {
   return (
@@ -29,7 +36,16 @@ function App() {
           <Route path="manageteacher" element={<RequireAuth><ManageTeacher /></RequireAuth>} />
           <Route path="addstudent" element={<RequireAuth><AddStudent /></RequireAuth>} />
           <Route path="allstudent" element={<RequireAuth><AllStudent /></RequireAuth>} />
+          <Route path="adddepartment" element={<RequireAuth><AddDepartment /></RequireAuth>} />
+
+          <Route path="addcourse" element={<RequireAuth><AddCourse /></RequireAuth>} />
+          <Route path="viewteacher" element={<RequireAuth><ViewTeacher /></RequireAuth>} />
+          <Route path="viewdepartment" element={<RequireAuth><ViewDepartment /></RequireAuth>} />
+          <Route path="viewstudent" element={<RequireAuth><ViewStudent /></RequireAuth>} />
+
+          <Route path="alldepartment" element={<RequireAuth><AllDepartment /></RequireAuth>} />
           <Route path="teacher/:teacherId" element={<RequireAuth><TeacherDetails /></RequireAuth>}></Route>
+          <Route path="teacher2/:teacherId" element={<RequireAuth><TeacherDetailsForTeacher /></RequireAuth>}></Route>
           <Route path="updateteacher/:teacherId" element={<RequireAuth><UpdateTeacher /></RequireAuth>}></Route>
         </Route>
         <Route path="about" element={<About />} />
