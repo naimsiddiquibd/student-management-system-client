@@ -1,0 +1,32 @@
+[
+    {
+        "teacherName":"Matiur Rahman",
+        "email":"matiur@gmail.com",
+        "designation": "Associate professor",
+        "department": "SWE"
+    },
+    {
+        "teacherName":"Kaushik Sarker",
+        "email":"kaushik@gmail.com",
+        "designation": "Associate head",
+        "department": "SWE"
+    },
+    {
+        "teacherName":"Rajib Mia",
+        "email":"rajib@gmail.com",
+        "designation": "Lecturer",
+        "department": "SWE"
+    },
+    {
+        "teacherName":"Zaman Faruqui",
+        "email":"zaman@gmail.com",
+        "designation": "Senior lecturer",
+        "department": "SWE"
+    },
+    {
+        "teacherName":"Rittique Alam",
+        "email":"rittique@gmail.com",
+        "designation": "Lecturer",
+        "department": "SWE"
+    }
+]
